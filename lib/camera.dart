@@ -19,7 +19,7 @@ enum ResolutionPreset { low, medium, high }
 
 typedef onLatestImageAvailable = Function(CameraImage image);
 
-/// Returns the resolution preset as a String.//
+/// Returns the resolution preset as a String.////
 String serializeResolutionPreset(ResolutionPreset resolutionPreset) {
   switch (resolutionPreset) {
     case ResolutionPreset.high:
